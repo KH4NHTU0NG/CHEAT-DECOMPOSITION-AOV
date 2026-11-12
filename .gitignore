@@ -1,0 +1,10 @@
+# Binary artifacts and massive game asset packages (> 100MB exceed GitHub push limit)
+*.apk
+*.ipa
+*.app/
+*.so
+*.dat
+*.eifs
+*.assets
+*.car
+.DS_Store

@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:versionCode="176857775"
+    android:versionName="1.64.1.7"
+    android:installLocation="auto"
+    android:compileSdkVersion="36"
+    android:compileSdkVersionCodename="16"
+    package="com.garena.game.kgvn1"
+    platformBuildVersionCode="36"
+    platformBuildVersionName="16">
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="36"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+    <uses-permission android:name="com.huawei.gameassistant.permission.PUBLIC_THIRD_API"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.garena.game.kgvn1_com.subao.permission.USE_SDK.com.garena.game.kgvn1.KingsGlory"/>
+    <uses-permission android:name="com.garena.game.kgvn1.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <permission android:name="com.garena.game.kgvn1_com.subao.permission.USE_SDK.com.garena.game.kgvn1.KingsGlory"/>
+    <permission
+        android:name="com.garena.game.kgvn1.permission.C2D_MESSAGE"
+        android:protectionLevel="signature"/>
+    <queries>
+        <package android:name="com.garena.gas"/>
+        <package android:name="com.garena.gaslite"/>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.facebook.orca"/>
+        <package android:name="com.facebook.lite"/>
+        <package android:name="com.vkontakte.android"/>
+        <package android:name="jp.naver.line.android"/>
+        <package android:name="com.tencent.mm"/>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.twitter.android"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.dts.freefireth"/>
+        <package android:name="com.dts.freefiremax"/>
+        <package android:name="com.mobile.legends"/>
+        <package android:name="com.roblox.client"/>
+        <package android:name="com.riotgames.league.wildrift"/>
+        <package android:name="com.tencent.lolmobile"/>
+        <package android:name="com.tencent.lolm"/>
+        <package android:name="com.netease.moba"/>
+        <package android:name="com.netease.g78na"/>
+        <package android:name="com.netease.g78na.tw"/>
+        <package android:name="com.tencent.tmgp.sgame"/>
+        <package android:name="com.levelinfinite.sgameGlobal"/>
+        <package android:name="com.levelinfinite.sgameGlobal.Alpha"/>
+        <package android:name="com.levelinfinite.sgameGlobal.xiaomi"/>
+        <package android:name="com.levelinfinite.sgameGlobal.samsung"/>
+        <package android:name="com.levelinfinite.sgameGlobal.huawei"/>
+        <package android:name="com.levelinfinite.sgameGlobal.cloud"/>
+        <package android:name="com.supercell.brawlstars"/>
+        <package android:name="com.activision.callofduty.shooter"/>
+        <package android:name="com.garena.game.codm"/>
+        <package android:name="com.tencent.tmgp.kr.codm"/>
+        <package android:name="com.zhiliaoapp.musically"/>
+        <package android:name="com.ss.android.ugc.trill"/>
+        <package android:name="com.zhiliaoapp.musically.go"/>
+        <package android:name="com.vng.pubgmobile"/>
+        <package android:name="com.tencent.iglite"/>
+        <package android:name="com.tencent.ig"/>
+        <package android:name="com.pubg.krmobile"/>
+        <package android:name="com.miHoYo.GenshinImpact"/>
+        <package android:name="com.mojang.minecraftpe"/>
+        <package android:name="com.dgames.g65002007.google"/>
+        <package android:name="com.HoYoverse.hkrpgoversea"/>
+        <package android:name="com.HoYoverse.Nap"/>
+        <package android:name="com.instagram.barcelona"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.facebook.orca"/>
+        <package android:name="com.netflix.mediaclient"/>
+        <package android:name="jp.naver.line.android"/>
+        <package android:name="com.madhead.tos.zh"/>
+        <package android:name="com.nianticlabs.pokemongo"/>
+        <package android:name="com.kurogame.wutheringwaves.global"/>
+        <package android:name="com.supercell.squad"/>
+        <package android:name="com.netmarble.sololv"/>
+        <package android:name="com.google.android.gm"/>
+        <package android:name="com.android.vending"/>
+        <package android:name="com.google.android.googlequicksearchbox"/>
+        <package android:name="jp.pokemon.pokemontcgp"/>
+        <package android:name="com.ea.gp.fifamobile"/>
+        <package android:name="jp.konami.pesam"/>
+        <package android:name="com.moonactive.coinmaster"/>
+        <package android:name="com.tinder"/>
+        <package android:name="com.coffeemeetsbagel"/>
+        <package android:name="com.spotify.music"/>
+        <package android:name="com.kasikorn.retail.mbanking.wap"/>
+        <package android:name="com.scb.phone"/>
+        <package android:name="com.bbl.mobilebanking"/>
+        <package android:name="com.discord"/>
+        <package android:name="com.tencent.ibg.joox"/>
+        <package android:name="com.bstar.intl"/>
+        <package android:name="com.naver.linewebtoon"/>
+        <package android:name="com.kiloo.subwaysurf"/>
+        <package android:name="com.king.candycrushsaga"/>
+        <package android:name="com.tdcm.trueidapp"/>
+        <package android:name="com.ais.mimo.eservice"/>
+        <package android:name="com.huoys.royalcasinoonline"/>
+        <package android:name="com.roblox.client.vnggames"/>
+        <package android:name="com.zing.zalo"/>
+        <package android:name="talkingtomfriends.com"/>
+        <package android:name="com.habby.archero"/>
+        <package android:name="com.supercell.clashroyale"/>
+        <package android:name="com.supercell.clashofclans"/>
+        <package android:name="com.lilithgame.roc.gp"/>
+        <package android:name="com.horror.sprunky.beats"/>
+        <package android:name="com.duolingo"/>
+        <package android:name="com.riotgames.league.teamfighttactics"/>
+        <package android:name="com.vng.playtogether"/>
+        <package android:name="com.outfit7.talkingtomtimerush"/>
+        <package android:name="com.habby.capybara"/>
+        <package android:name="com.xq.archeroii"/>
+        <package android:name="com.shopee.th"/>
+        <package android:name="com.shopee.tw"/>
+        <package android:name="com.shopee.vn"/>
+        <package android:name="com.hhgame.mlbbvn"/>
+        <package android:name="com.mobilechess.gp"/>
+        <package android:name="com.levelinfinite.sgameGlobal.midaspay"/>
+        <package android:name="com.levelinfinite.sgameGlobal.vivo"/>
+        <package android:name="com.levelinfinite.sgameGlobal.oppo"/>
+        <package android:name="com.levelinfinite.sgameGlobal.onestore"/>
+        <intent>
+            <data android:mimeType="*/*"/>
+            <action android:name="android.intent.action.SEND"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND"/>
+        </intent>
+        <package android:name="com.google.android.gms"/>
+        <intent>
+            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER"/>
+        </intent>
+        <provider android:authorities="com.garena.game.kgvn1_com.facebook.katana.provider.PlatformProvider"/>
+        <provider android:authorities="com.garena.game.kgvn1_com.facebook.orca.provider.PlatformProvider"/>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="androidx.browser.customtabs.action.CustomTabsService"/>
+        </intent>
+        <package android:name="com.hihonor.id"/>
+        <intent>
+            <action android:name="com.hihonor.id.HnOaIdService"/>
+        </intent>
+    </queries>
+    <supports-screens
+        android:anyDensity="true"
+        android:normalScreens="true"
+        android:largeScreens="true"/>
+    <uses-feature android:glEsVersion="0x20000"/>
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch.distinct"
+        android:required="false"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <permission
+        android:name="com.garena.game.kgvn1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.garena.game.kgvn1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"/>
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:icon="@mipmap/app_icon"
+        android:name="com.android.support.auth.GateApplication"
+        android:allowBackup="false"
+        android:supportsRtl="true"
+        android:banner="@drawable/app_banner"
+        android:isGame="true"
+        android:extractNativeLibs="true"
+        android:fullBackupContent="@xml/appsflyer_backup_rules"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:appCategory="game"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:requestLegacyExternalStorage="true"
+        android:enableOnBackInvokedCallback="false">
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+        <service
+            android:name="com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService"
+            android:exported="false"
+            android:process=":TMAssistantDownloadSDKService"/>
+        <service
+            android:name="com.tencent.tmdownloader.TMAssistantDownloadService"
+            android:exported="false"
+            android:process=":TMAssistantDownloadSDKService"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.beetalk.sdk.account.AccountAuthenticatorService"
+            android:enabled="true"
+            android:exported="true">
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator"/>
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.ihoc.mgpa.download.BgDownloadService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="dataSync"/>
+        <service
+            android:name="com.ihoc.mgpa.gradish.GRService"
+            android:enabled="true"
+            android:exported="false"
+            android:process="com.lvluo.message">
+            <intent-filter>
+                <category android:name="com.ihoc.mgpa.gr.category.HIDM_CATGORY"/>
+                <action android:name="com.ihoc.mgpa.gr.action.FALE_Natified"/>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.garena.android.DefaultNotificationReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="com.garena.garena_msdk_sample.app"/>
+                <action android:name="com.garena.android.gpns.NOTIFICATION_RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"
+            android:authorities="com.garena.game.kgvn1_com.facebook.app.FacebookContentProvider628749490632038"/>
+        <provider
+            android:name="com.garena.android.share.GGFileProvider"
+            android:exported="false"
+            android:authorities="com.garena.game.kgvn1_com.garena.android.fileprovider100054"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+        <meta-data
+            android:name="IS_DEBUG"
+            android:value="false"/>
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4"/>
+        <meta-data
+            android:name="android.vendor.full_screen"
+            android:value="true"/>
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true"/>
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape"/>
+        <meta-data
+            android:name="com.tencent.rdm.uuid"
+            android:value="2096e2ac-b50e-4a8c-b01a-59c22386e5c1"/>
+        <meta-data
+            android:name="AOVInstallChannel"
+            android:value="google"/>
+        <meta-data
+            android:name="DEVKEY_APPSFLYER"
+            android:value="@string/DEVKEY_APPSFLYER"/>
+        <meta-data
+            android:name="APPKEY_DENGTA"
+            android:value="@string/APPKEY_DENGTA"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/notification_icon"/>
+        <meta-data
+            android:name="TA_APPKEY"
+            android:value="@string/TA_APPKEY"/>
+        <meta-data
+            android:name="InstallChannel"
+            android:value="@string/InstallChannel"/>
+        <meta-data
+            android:name="com.tencent.imsdk.garena.Environment"
+            android:value="@string/com.tencent.imsdk.garena.Environment"/>
+        <meta-data
+            android:name="com.garena.sdk.applicationId"
+            android:value="@integer/com.garena.sdk.applicationId"/>
+        <meta-data
+            android:name="com.garena.sdk.ApplicationSourceId"
+            android:value="@integer/com.garena.sdk.ApplicationSourceId"/>
+        <meta-data
+            android:name="com.garena.sdk.push.applicationId"
+            android:value="@integer/com.garena.sdk.push.applicationId"/>
+        <meta-data
+            android:name="com.beetalklib.ganalytics.report_url"
+            android:value="@string/com.beetalklib.ganalytics.report_url"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token"/>
+        <meta-data
+            android:name="com.garena.sdk.google_client_id"
+            android:value="@string/google_client_id"/>
+        <meta-data
+            android:name="GCloud.GCloud.GameId"
+            android:value="@string/gcloud_game_id"/>
+        <meta-data
+            android:name="GCloud.GCloud.GameKey"
+            android:value="@string/gcloud_game_key"/>
+        <meta-data
+            android:name="GCloud.GCloudCore.RemoteConfigUrl"
+            android:value="@string/gcloud_remote_control_url"/>
+        <meta-data
+            android:name="GCloud.GCloudCore.GTraceUrl"
+            android:value="@string/gcloud_trace_url"/>
+        <meta-data
+            android:name="GCloud.TDM.DisableDeviceInfo"
+            android:value="UserAgent"/>
+        <meta-data
+            android:name="GCloud.TDM.AppId"
+            android:value="@string/gcloud_game_id"/>
+        <meta-data
+            android:name="GCloud.TDM.TGEMIT_ROUTER_ADDRESS_FORMAL"
+            android:value="@string/GCloud.TDM.TGEMIT_ROUTER_ADDRESS_FORMAL"/>
+        <meta-data
+            android:name="GCloud.TDM.TGEMIT_ROUTER_ADDRESS_TEST"
+            android:value="@string/GCloud.TDM.TGEMIT_ROUTER_ADDRESS_TEST"/>
+        <meta-data
+            android:name="GCloud.TDM.Test"
+            android:value="@bool/GCloud.TDM.Test"/>
+        <meta-data
+            android:name="GCloud.TDM.LogLevel"
+            android:value="@integer/GCloud.TDM.LogLevel"/>
+        <meta-data
+            android:name="CENTAURI.APP_SDK_SKIP_INIT"
+            android:value="true"/>
+        <meta-data
+            android:name="PERFSIGHT.REPORT_URL"
+            android:value="https://android.perfsight.wetest.net"/>
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/com.google.android.gms.games.APP_ID"/>
+        <meta-data
+            android:name="android.game_mode_config"
+            android:resource="@xml/game_mode_config"/>
+        <meta-data
+            android:name="unityplayer.SkipPermissionsDialog"
+            android:value="true"/>
+        <meta-data
+            android:name="GCloud.GCloud.OperationMode"
+            android:value="2"/>
+        <activity
+            android:theme="@style/noAnimAppCompat"
+            android:name="ngame.support.MultiDexActivity"
+            android:process=":ngame_multidex"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/noAnimAppCompat"
+            android:name="com.garena.game.kgtw.BlankActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/noAnimAppCompat"
+            android:label="@string/app_name"
+            android:name="com.garena.game.kgtw.SGameRealActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:configChanges="fontScale|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+            android:autoRemoveFromRecents="true">
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true"/>
+            <meta-data
+                android:name="unityplayer.ForwardNativeEventsToDalvik"
+                android:value="true"/>
+        </activity>
+        <activity
+            android:theme="@style/LauncherActivityStyle"
+            android:label="@string/app_name"
+            android:name="com.garena.game.kgtw.SGameActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:configChanges="fontScale|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity
+            android:theme="@style/com_facebook_activity_theme"
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:name="com.beetalk.sdk.GarenaAuthActivity"
+            android:process=":ngame_beetalk_webview"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:name="com.beetalk.sdk.plugin.GGPluginActivity"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:name="com.beetalk.sdk.EmailAuthActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <meta-data
+            android:name="unity.splash-mode"
+            android:value="2"/>
+        <meta-data
+            android:name="unity.splash-enable"
+            android:value="true"/>
+        <meta-data
+            android:name="unity.launch-fullscreen"
+            android:value="true"/>
+        <meta-data
+            android:name="unity.allow-resizable-window"
+            android:value="false"/>
+        <meta-data
+            android:name="unity.auto-report-fully-drawn"
+            android:value="true"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="com.linecorp.linesdk.openchat.ui.CreateOpenChatActivity"/>
+        <activity
+            android:theme="@style/LineSdk_AuthenticationActivity"
+            android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity"
+            android:exported="true"
+            android:configChanges="screenSize|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="lineauth"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="fbconnect"
+                    android:host="cct.com.garena.game.kgvn1"/>
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:exported="false"
+            android:authorities="com.garena.game.kgvn1.FacebookInitProvider"/>
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.facebook.AuthenticationTokenManager.CurrentAuthenticationTokenChangedBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="co.datadome.sdk.CaptchaActivity"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="8.0.0"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:exported="true"
+            android:visibleToInstantApps="true"/>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider
+            android:name="com.google.android.gms.games.provider.PlayGamesInitProvider"
+            android:exported="false"
+            android:authorities="com.garena.game.kgvn1.playgamesinitprovider"
+            android:initOrder="99"/>
+        <activity
+            android:theme="@style/Theme.Games.Transparent"
+            android:name="com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/Theme.Games.Transparent"
+            android:name="com.google.android.gms.games.internal.v2.appshortcuts.PlayGamesAppShortcutsActivity"
+            android:exported="true"/>
+        <meta-data
+            android:name="com.google.android.gms.games.version"
+            android:value="@string/play_games_sdk_version"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+            android:enabled="false"
+            android:exported="true">
+            <meta-data
+                android:name="com.google.android.play.core.assetpacks.versionCode"
+                android:value="20202"/>
+        </service>
+        <service
+            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+            android:enabled="false"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            android:authorities="com.garena.game.kgvn1.firebaseinitprovider"
+            android:initOrder="100"
+            android:directBootAware="true"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.garena.game.kgvn1.androidx-startup">
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct"/>
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false"/>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:exported="false"
+            android:authorities="com.garena.game.kgvn1.com.squareup.picasso"/>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.bytedance.sdk.open.tiktok.ui.TikTokWebAuthorizeActivity"
+            android:screenOrientation="behind"/>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.centauri.oversea.business.pay.CTIProxyActivity"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"/>
+        <meta-data
+            android:name="CENTAURI.APP_SDK_ASSIGN_ID"
+            android:value="@string/CENTAURI.APP_SDK_ASSIGN_ID"/>
+        <meta-data
+            android:name="CENTAURI.VIRTUAL_CURRENCY_NAME"
+            android:value="@string/CENTAURI.VIRTUAL_CURRENCY_NAME"/>
+        <provider
+            android:name="com.gsdk.gcloud.ApolloProvider"
+            android:exported="false"
+            android:authorities="com.garena.game.kgvn1.ApolloFileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/apollo_file_paths"/>
+        </provider>
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false"/>
+        <service
+            android:name="com.tencent.gcloud.msdk.push.FirebasePushReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.tencent.gcloud.msdk.push.FirebasePushActivity"
+            android:exported="false"/>
+        <service
+            android:name="com.garena.game.badge.garena.BadgeFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@style/AppCompatActivity.Transparent"
+            android:name="com.beetalk.sdk.BTLoginActivity"
+            android:excludeFromRecents="true"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/Theme.Transparent"
+            android:name="com.garena.pay.android.GGPayActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|screenLayout|orientation"/>
+        <activity
+            android:theme="@style/Activity.Transparent"
+            android:name="com.beetalk.sdk.account.MigrateGuestActivity"
+            android:exported="true"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="twittersdk"
+                    android:host="callback"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity
+            android:name="com.beetalk.sdk.plugin.impl.tiktok.TiktokShareResponseActivity"
+            android:exported="true"
+            android:taskAffinity="com.garena.game.kgvn1"
+            android:launchMode="singleTask"/>
+        <activity
+            android:theme="@style/Theme.Transparent"
+            android:name="com.beetalk.sdk.plugin.GGPluginActivityCompat"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <service
+            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="com.twitter.sdk.android.tweetcomposer.TweetSuccessReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.twitter.sdk.android.tweetcomposer.UPLOAD_SUCCESS"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.twitter.sdk.android.tweetcomposer.TweetFailureReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.twitter.sdk.android.tweetcomposer.UPLOAD_FAILURE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.twitter.sdk.android.tweetcomposer.TweetCancelReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.twitter.sdk.android.tweetcomposer.TWEET_COMPOSE_CANCEL"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.garena.android.AppStartupProvider"
+            android:exported="false"
+            android:authorities="com.garena.game.kgvn1.msdk.startup.component"/>
+        <service
+            android:name="com.banalytics.Log2FileService"
+            android:process=":remote"/>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/tme_app_name"
+            android:name="com.tencent.tme.live.aov.activities.TMELiveActivity"
+            android:process=":tmeLive"
+            android:launchMode="standard"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="fontScale|screenSize|orientation|keyboardHidden"/>
+        <service
+            android:name="com.tencent.tme.live.aov.api.SDKProcessService"
+            android:process=":tmeLive"/>
+        <activity
+            android:theme="@style/activity_styleprize"
+            android:name="com.tencent.tme.live.poptv.TMESPopTvActivity"
+            android:exported="false"
+            android:process=":tmeLive"
+            android:launchMode="standard"
+            android:configChanges="fontScale|screenSize|orientation|keyboardHidden"/>
+        <receiver
+            android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.tencent.gcloud.msdk.system.SystemFileProvider"
+            android:exported="false"
+            android:authorities="com.garena.game.kgvn1.system.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/system_share_storage"/>
+        </provider>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.intlgame.video.INTLVideoMomentPlayerActivity"
+            android:screenOrientation="userLandscape"
+            android:hardwareAccelerated="true">
+            <meta-data
+                android:name="android.max_aspect"
+                android:value="2.1"/>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.intlgame.video.demo.INTLLivestreamMainActivity"
+            android:screenOrientation="userLandscape"
+            android:hardwareAccelerated="true">
+            <meta-data
+                android:name="android.max_aspect"
+                android:value="2.1"/>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.intlgame.video.demo.INTLLiveStreamPlayerActivity"
+            android:screenOrientation="userLandscape"
+            android:hardwareAccelerated="true">
+            <meta-data
+                android:name="android.max_aspect"
+                android:value="2.1"/>
+        </activity>
+        <service
+            android:name="com.gme.video.sdk.capture.ScreenRecordService"
+            android:enabled="true"
+            android:foregroundServiceType="mediaProjection"/>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.tencent.gcloud.msdk.webview.WebViewActivity"
+            android:process=":msdk_inner_webview"
+            android:launchMode="singleTask"
+            android:screenOrientation="locked"
+            android:configChanges="fontScale|screenSize|orientation|navigation|keyboardHidden|locale"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:hardwareAccelerated="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.tencent.gcloud.msdk.webview.WebViewIPCActivity"
+            android:launchMode="singleTop"
+            android:configChanges="fontScale|screenSize|orientation|navigation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity"
+            android:exported="true">
+            <meta-data
+                android:name="MSDK_POLICY_VERSION"
+                android:value="1"/>
+        </activity>
+        <receiver android:name="com.intlgame.core.push.ScheduledNotificationReceiver"/>
+        <service
+            android:name="com.intlgame.core.service.INTLXwidMessageNotifiedService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.proximabeta.gr.action.FALE_Natified"/>
+                <category android:name="com.proximabeta.gr.category.HIDM_CATGORY"/>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.tencent.gcloud.msdk.instagram.InstagramFileProvider"
+            android:exported="false"
+            android:authorities="com.garena.game.kgvn1.msdkins.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/instagram_share_storage"/>
+        </provider>
+        <service
+            android:name="com.ano.gshell.GP7Service"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":GP7Service">
+            <intent-filter>
+                <action android:name="com.ano.gshell.GP7Service"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.ano.gshell.GP6Service"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":GP6Service">
+            <intent-filter>
+                <action android:name="com.ano.gshell.GP6Service"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.ano.gshell.GP7Worker"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":GP7Worker">
+            <intent-filter>
+                <action android:name="com.ano.gshell.GP7Worker"/>
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store"/>
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:resource="@xml/splits0"/>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="3"/>
+        <meta-data
+            android:name="com.android.dynamic.apk.fused.modules"
+            android:value="assetpack,base"/>
+        <activity
+            android:theme="@android:style/Theme.Material.NoActionBar"
+            android:name="com.android.support.auth.GateActivity"
+            android:exported="true"
+            android:process=":apkGate"
+            android:excludeFromRecents="true"
+            android:screenOrientation="landscape"
+            android:configChanges="fontScale|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="fb628749490632038"
+                    android:host="action"/>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="whatsappinvite1137"/>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="smsinvite1137"/>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="ngame1137"/>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Material.NoActionBar"
+            android:name="com.android.support.auth.MaintenanceActivity"
+            android:exported="false"
+            android:process=":apkGate"
+            android:excludeFromRecents="true"
+            android:screenOrientation="landscape"
+            android:configChanges="fontScale|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+    </application>
+</manifest>

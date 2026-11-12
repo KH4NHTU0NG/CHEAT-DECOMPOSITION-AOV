@@ -1,0 +1,5 @@
+00000000024c6b40 (__TEXT,__text) external _hook
+00000000024c72d4 (__TEXT,__text) external _hook_one_point
+00000000024c6e40 (__TEXT,__text) external _hook_reset
+00000000024c70ec (__TEXT,__text) external _unhook
+00000000024c732c (__TEXT,__text) external _unhook_one_point
